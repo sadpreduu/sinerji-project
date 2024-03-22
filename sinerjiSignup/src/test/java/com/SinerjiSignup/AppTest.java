@@ -1,4 +1,4 @@
-package com.sinerji_signup;
+package com.SinerjiSignup;
 
 import org.junit.jupiter.api.Test;
 

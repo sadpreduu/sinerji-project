@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="C:\Users\pedri\Github\sinerji-project\sinerji_signup\src\main\java\com\sinerji_signup\App.java">
+<error line="1" column="9" severity="error" message="O nome &apos;com.sinerji_signup&apos; deve condizer com o padrão &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+<file name="C:\Users\pedri\Github\sinerji-project\sinerji_signup\src\test\java\com\sinerji_signup\AppTest.java">
+<error line="1" column="9" severity="error" message="O nome &apos;com.sinerji_signup&apos; deve condizer com o padrão &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+</checkstyle>

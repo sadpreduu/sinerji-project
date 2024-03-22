@@ -3,6 +3,7 @@ package com.sinerji_signup;
 /**
  * Hello world!
  */
+
 public final class App {
     private App() {
     }

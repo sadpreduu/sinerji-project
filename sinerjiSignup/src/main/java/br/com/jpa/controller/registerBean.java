@@ -8,13 +8,13 @@ import javax.enterprise.context.SessionScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import br.com.jpa.model.Pessoa;
+import br.com.jpa.model.register;
 
 @Named("bean")
 
 @SessionScoped
 
-public class PessoaMB implements Serializable{
+public class registerBean implements Serializable{
 
 	/**
 	 * 
@@ -22,33 +22,33 @@ public class PessoaMB implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	@Inject
-	private Pessoa pessoa;
+	private register register;
 	
-	private List<Pessoa> pessoas = new ArrayList<Pessoa>();
+	private List<register> pessoas = new ArrayList<register>();
 	
 	public String adicionar() {
-		pessoas.add(pessoa);
+		registers.add(register);
 		limpar();
 		return "paginas/Sucesso";
 	}
 	
 	private void limpar() {
-		this.pessoa = new Pessoa();
+		this.register = new register();
 	}
 
-	public Pessoa getPessoa() {
-		return pessoa;
+	public Register getRegisterBean() {
+		return register;
 	}
 
-	public void setPessoa(Pessoa pessoa) {
-		this.pessoa = pessoa;
+	public void setRegister(register register) {
+		this.register = register;
 	}
 
-	public List<Pessoa> getPessoas() {
+	public List<registerBean> getPessoas() {
 		return pessoas;
 	}
 
-	public void setPessoas(List<Pessoa> pessoas) {
+	public void setPessoas(List<register> pessoas) {
 		this.pessoas = pessoas;
 	}
 	
